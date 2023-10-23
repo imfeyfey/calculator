@@ -1,6 +1,9 @@
 body {
     margin:0;
     padding:0;
+    background-color: #2E4374;
+    background-position: center;
+    background-size: cover;
 }
 
 .app{
@@ -9,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .calculator {
@@ -20,18 +24,21 @@ body {
     height: 600px;
     background-color: aquamarine;
     border-radius: 30px;
+    background-color: #4B527E;
 }
 .display {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     width: 310px;
+    color: #E5C3A6;
 }
 
 .equation {
     font-size: 20px;
     padding: 20px 0px 20px 0px;
     text-align: center;
+    color: #E5C3A6;
 }
 
 .result {
@@ -46,6 +53,10 @@ body {
     justify-content: space-between;
     width: 310px;
     padding: 20px 0px 15px 0px;
+}
+
+.history:hover, .cancel:hover {
+    color: #7C81AD;
 }
 
 .line {
@@ -76,4 +87,9 @@ input[type=button] {
     border-radius: 50%;
     border: none;
     text-align: center;
+    background-color: #7C81AD;
+}
+
+input[type=button]:hover {
+    background-color: #E5C3A6;
 }
